@@ -6,11 +6,14 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h2>Hi, my name is</h2>
+    <h1 class="green">{{ msg }}.</h1>
+    <h1>I build things for the web.</h1>
     <h3>
-      You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://vuejs.org/">Vue 3</a>. What's next?
+      <!-- <a target="_blank" href="https://vitejs.dev/">Vite</a> +
+      <a target="_blank" href="https://vuejs.org/">Vue 3</a> -->
+      I'm a graduate software developer based in Wellington, NZ specialising in
+      building exceptional websites, applications, and everything in between.
     </h3>
   </div>
 </template>

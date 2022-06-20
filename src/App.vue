@@ -6,19 +6,20 @@ import HelloWorld from "@/components/HelloWorld.vue";
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="hm script"
       class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
+      src="@/assets/hmlogo.png"
+      width="200"
+      height="200"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Halmai McRae" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/resume">Resume</RouterLink>
       </nav>
     </div>
   </header>
@@ -62,6 +63,7 @@ a,
 
 nav {
   width: 100%;
+  max-width: none;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;

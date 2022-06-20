@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^3.2.36",
+    "vue-pdf": "^4.3.0",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
