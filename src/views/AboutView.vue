@@ -5,22 +5,21 @@
       of those around me. My goal is to always build products that provide
       pixel-perfect, performant experiences. Here are a few technologies I've
       been working with recently:
+      <div>
       <ul class="list">
-        <li>JavaScript</li>
+        <li>HTML & (S)CSS</li>
+        <li>JavaScript(ES6+)</li>
         <li>TypeScript</li>
         <li>React</li>
-        <li>Vue</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
+        <li>UI / UX frameworks</li>
       </ul>
       <ul class="list">
-        <li>React</li>
-        <li>Vue</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>Vue</li>
+        <li>Vue.js</li>
+        <li>Redux</li>
+        <li>Next.js</li>
+        <li>Node.js</li>
       </ul>
+      </div>
     </h3>
   </div>
 </template>

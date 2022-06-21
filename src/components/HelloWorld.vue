@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h2>Hi, my name is</h2>
+    <h2>Kia ora, my name is</h2>
     <h1 class="green">{{ msg }}.</h1>
     <h1>I build things for the web.</h1>
     <h3>

@@ -1,25 +1,21 @@
 <script setup lang="ts">
 import WelcomeItem from "./WelcomeItem.vue";
-import DocumentationIcon from "./icons/IconDocumentation.vue";
-import ToolingIcon from "./icons/IconTooling.vue";
-import EcosystemIcon from "./icons/IconEcosystem.vue";
-import CommunityIcon from "./icons/IconCommunity.vue";
-import SupportIcon from "./icons/IconSupport.vue";
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+  <a href="https://github.com/halmai-mcrae">
+  <font-awesome-icon icon="fa-brands fa-github" size="2x"/>
+  </a>
     </template>
-    <template #heading>Projects:</template>
-
-    Some recent things I've been working on.
+    <template #heading>Projects</template>
+      Some recent things I've been working on.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+<a  href="https://www.linkedin.com/in/halmai-mcrae/" ><font-awesome-icon icon="fa-brands fa-linkedin-in" size="2x" /></a>
     </template>
     <template #heading>Manu Mana</template>
     <!-- <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js"
@@ -36,7 +32,7 @@ import SupportIcon from "./icons/IconSupport.vue";
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <font-awesome-icon icon="fa-solid fa-heart" size="2x"/>
     </template>
     <template #heading>Another project</template>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -47,7 +43,9 @@ import SupportIcon from "./icons/IconSupport.vue";
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+    <a href="mailto: halmaimcrae1@gmail.com">
+      <font-awesome-icon icon="fa-solid fa-envelope" size="2x"/>
+    </a> 
     </template>
     <template #heading>Another project</template>
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -57,11 +55,13 @@ import SupportIcon from "./icons/IconSupport.vue";
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+            <a href="https://medium.com/@halmaimcrae">
+<font-awesome-icon icon="fa-brands fa-medium" size="2x"/>
+</a>
     </template>
-    <template #heading>More projects</template>
+    <!-- <template #heading>More projects</template>
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+    tempor incididunt ut labore et dolore magna aliqua. -->
   </WelcomeItem>
 </template>

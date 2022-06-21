@@ -27,10 +27,8 @@ i {
   display: flex;
   place-items: center;
   place-content: center;
-  width: 32px;
-  height: 32px;
-
-  color: var(--color-text);
+  width: 50px;
+  height: 50px;;
 }
 
 h3 {
@@ -51,7 +49,6 @@ h3 {
     left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
-    background: var(--color-background);
     border-radius: 8px;
     width: 50px;
     height: 50px;
