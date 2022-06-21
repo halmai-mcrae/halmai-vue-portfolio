@@ -9,7 +9,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       alt="hm script"
       className="logo"
       src="@/assets/hmlogo.png"
-      width="200"
+      width="180"
       height="200"
     />
 
@@ -35,7 +35,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 @import "@/assets/base.css";
 
 #app {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 
@@ -55,13 +55,13 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #8C8686;
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: #e5e6e4;
   }
 }
 
@@ -74,7 +74,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #e5e6e4;
 }
 
 nav a.router-link-exact-active:hover {

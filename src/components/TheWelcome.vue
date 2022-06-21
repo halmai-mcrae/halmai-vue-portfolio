@@ -14,7 +14,7 @@ import SupportIcon from "./icons/IconSupport.vue";
     </template>
     <template #heading>Projects:</template>
 
-    Some recent things I've been working on .
+    Some recent things I've been working on.
   </WelcomeItem>
 
   <WelcomeItem>
