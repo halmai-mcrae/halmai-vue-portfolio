@@ -7,19 +7,23 @@ import HelloWorld from "@/components/HelloWorld.vue";
   <header>
     <img
       alt="hm script"
-      class="logo"
+      className="logo"
       src="@/assets/hmlogo.png"
       width="200"
       height="200"
     />
 
-    <div class="wrapper">
+    <div className="wrapper">
       <HelloWorld msg="Halmai McRae" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/resume">Resume</RouterLink>
+<a href="src/assets/halmai-mcrae-resume-merged.pdf"
+        target="_blank"
+      > Resume
+      </a>
+      <a href = "mailto: halmaimcrae1@gmail.com">Contact</a>
       </nav>
     </div>
   </header>

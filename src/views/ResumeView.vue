@@ -1,13 +1,6 @@
 <template>
-  <pdf src="@/assets/halmai-mcrae-resume-merged.pdf"></pdf>
+<a href="src/assets/halmai-mcrae-resume-merged.pdf"
+        target="_blank"
+      > Veiw my resume.
+      </a>
 </template>
-
-<script type="module" lang="ts">
-import { pdf } from "vue-pdf";
-
-export default {
-  components: {
-    pdf,
-  },
-};
-</script>
