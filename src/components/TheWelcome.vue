@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import WelcomeItem from "./WelcomeItem.vue";
+import { RouterLink, RouterView }from "vue-router";
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import WelcomeItem from "./WelcomeItem.vue";
   <font-awesome-icon icon="fa-brands fa-github" size="2x"/>
   </a>
     </template>
-    <template #heading>Projects</template>
+    <!-- <template #heading>Projects</template> -->
       Some recent things I've been working on.
   </WelcomeItem>
 
@@ -32,7 +33,11 @@ import WelcomeItem from "./WelcomeItem.vue";
 
   <WelcomeItem>
     <template #icon>
-      <font-awesome-icon icon="fa-solid fa-heart" size="2x"/>
+      <nav>
+      <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" size="2x"/>
+      </RouterLink>
+      </nav>
+  <RouterView />
     </template>
     <template #heading>Another project</template>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

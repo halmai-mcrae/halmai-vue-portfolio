@@ -7,12 +7,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faHeart, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faEnvelope, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
 import { faGithub, faLinkedinIn, faMedium } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faGithub, faLinkedinIn, faMedium, faHeart, faEnvelope)
+library.add(faGithub, faLinkedinIn, faMedium, faHeart, faEnvelope, faThumbsUp)
 
 import router from "./router";
 

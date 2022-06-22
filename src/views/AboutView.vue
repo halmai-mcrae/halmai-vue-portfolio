@@ -1,12 +1,11 @@
 <template>
   <div class="about">
     <h3>
-      I am passionate about building excellent software that improves the lives
-      of those around me. My goal is to always build products that provide
+      I am passionate about building excellent software that provides
       pixel-perfect, performant experiences. Here are a few technologies I've
-      been working with recently:
+      been working with recently.
       <div>
-      <ul class="list">
+      <ul>
         <li>HTML & (S)CSS</li>
         <li>JavaScript(ES6+)</li>
         <li>TypeScript</li>
@@ -14,11 +13,17 @@
         <li>UI / UX frameworks</li>
       </ul>
       <ul class="list">
-        <li>Vue.js</li>
+        <li>Express.js</li>
+        <li>Vue</li>
         <li>Redux</li>
         <li>Next.js</li>
         <li>Node.js</li>
       </ul>
+    <div class="about">
+      I am currently looking for new opportunies, either remote or here in Wellington. 
+      If you'd like to chat, or have something in mind you think I'd be a good fit for, then please
+      </div>
+      <a class= "about" href="mailto: halmaimcrae1@gmail.com">get in touch with me.</a>
       </div>
     </h3>
   </div>
@@ -27,15 +32,23 @@
 <style>
 @media (min-width: 1024px) {
   .about {
-    min-height: 100vh;
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
   }
-  .list {
-    float: left;
-    margin: 0 25px;
-    margin-top: 25px;
+
+  li {
+    color: #8C8686;
+    display: grid;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  ul { 
+  display: inline-block; 
+  margin-top: 10px;
   }
 }
 </style>

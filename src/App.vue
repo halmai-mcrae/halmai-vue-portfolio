@@ -22,9 +22,6 @@ import HelloWorld from "@/components/HelloWorld.vue";
       <a href="src/assets/halmai-mcrae-resume-merged.pdf" target="_blank">
           Resume
       </a>
-      <!-- <a href="mailto: halmaimcrae1@gmail.com">
-        Contact
-      </a> -->
       </nav>
     </div>
   </header>
@@ -39,7 +36,6 @@ import HelloWorld from "@/components/HelloWorld.vue";
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
