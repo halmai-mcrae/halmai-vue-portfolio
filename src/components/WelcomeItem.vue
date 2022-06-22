@@ -27,9 +27,12 @@ i {
   display: flex;
   place-items: center;
   place-content: center;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
+i :hover {
+    background-color: #140f0f;
+  }
 
 h3 {
   font-size: 1.2rem;
@@ -49,9 +52,9 @@ h3 {
     left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
-    border-radius: 8px;
-    width: 50px;
-    height: 50px;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
   }
 
   .item:before {

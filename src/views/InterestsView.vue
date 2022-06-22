@@ -84,7 +84,7 @@
       <span class="category">I strive to continuosly learn.</span>
     </div>
     <div class="image">
-      <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt="" />
+      <img src="https://images.unsplash.com/photo-1551491225-11a3b65d8601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3059&q=80" alt="" />
     </div>
   </a>
 
@@ -104,7 +104,7 @@
       <span class="category"></span>
     </div>
     <div class="image">
-      <img src="https://images.unsplash.com/photo-1628435507443-c40431e3a7ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt="" />
+      <img src="https://images.unsplash.com/photo-1621851798754-a4b5979cd39a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80" alt="" />
     </div>
   </a>
 
@@ -145,7 +145,7 @@ body {
   margin: 50px auto 30px;
   font-size: 25px;
   letter-spacing: 1px;
-  color: #fff;
+  color: #e5e6e4;
 }
 .card {
   width: 25%;
@@ -164,7 +164,7 @@ body {
   padding: 25px;
   box-sizing: border-box;
   min-height: 100px;
-  background: #111;
+  background: #140f0f;
 }
 .card .image {
   z-index: 1;
@@ -179,7 +179,7 @@ body {
 
 .card:hover .content {
   bottom: 0px;
-  color: #fff;
+  color: #e5e6e4;
 }
 
 .card:hover .image img {
@@ -192,7 +192,7 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  color: #fff;
+  color: #e5e6e4;
   font-size: 15px;
 }
 

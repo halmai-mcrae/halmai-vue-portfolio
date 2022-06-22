@@ -7,7 +7,7 @@ import { RouterLink, RouterView }from "vue-router";
   <WelcomeItem>
     <template #icon>
   <a href="https://github.com/halmai-mcrae">
-  <font-awesome-icon icon="fa-brands fa-github" size="2x"/>
+  <font-awesome-icon icon="fa-brands fa-github" transform="grow-14 down-2"/>
   </a>
     </template>
     <!-- <template #heading>Projects</template> -->
@@ -16,7 +16,7 @@ import { RouterLink, RouterView }from "vue-router";
 
   <WelcomeItem>
     <template #icon>
-<a  href="https://www.linkedin.com/in/halmai-mcrae/" ><font-awesome-icon icon="fa-brands fa-linkedin-in" size="2x" /></a>
+<a  href="https://www.linkedin.com/in/halmai-mcrae/" ><font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2" /></a>
     </template>
     <template #heading>Manu Mana</template>
     <!-- <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js"
@@ -32,12 +32,10 @@ import { RouterLink, RouterView }from "vue-router";
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <nav>
-      <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" size="2x"/>
-      </RouterLink>
-      </nav>
-  <RouterView />
+<template #icon>
+            <a href="https://medium.com/@halmaimcrae">
+<font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
+</a>
     </template>
     <template #heading>Another project</template>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -49,7 +47,7 @@ import { RouterLink, RouterView }from "vue-router";
   <WelcomeItem>
     <template #icon>
     <a href="mailto: halmaimcrae1@gmail.com">
-      <font-awesome-icon icon="fa-solid fa-envelope" size="2x"/>
+      <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
     </a> 
     </template>
     <template #heading>Another project</template>
@@ -59,10 +57,12 @@ import { RouterLink, RouterView }from "vue-router";
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-            <a href="https://medium.com/@halmaimcrae">
-<font-awesome-icon icon="fa-brands fa-medium" size="2x"/>
-</a>
+        <template #icon>
+      <nav>
+      <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-11 right-4 up-4"/>
+      </RouterLink>
+      </nav>
+  <RouterView />
     </template>
     <!-- <template #heading>More projects</template>
 
