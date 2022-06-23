@@ -15,13 +15,13 @@
         <li>UI / UX frameworks</li>
       </ul>
       <ul class="list">
-        <li>Express.js</li>
+        <li>ExpressJS</li>
         <li>Vue</li>
         <li>Redux</li>
-        <li>Next.js</li>
-        <li>Node.js</li>
+        <li>NextJS</li>
+        <li>NodeJS</li>
         <li>Django</li>
-        <li>Nuxt.js</li>
+        <li>NuxtJS</li>
       </ul>
     <div class="about">
       I am currently looking for new opportunies, either remote or here in Wellington. 
