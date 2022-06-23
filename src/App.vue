@@ -10,7 +10,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       className="logo"
       src="@/assets/hmlogo.png"
       width="180"
-      height="200"
+      height="220"
     />
 
     <div className="wrapper">

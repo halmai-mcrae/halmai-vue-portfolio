@@ -58,10 +58,8 @@ import { RouterLink, RouterView }from "vue-router";
 
   <WelcomeItem>
         <template #icon>
-      <nav>
-      <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-11 right-4 up-4"/>
+      <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-10 down-1"/>
       </RouterLink>
-      </nav>
   <RouterView />
     </template>
     <!-- <template #heading>More projects</template>
