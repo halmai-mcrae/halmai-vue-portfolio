@@ -33,7 +33,7 @@ Manu Mana is more than a web application: the project is about design, protectin
 <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
 </a>
     </template>
-    <template #heading>Another project</template>
+    <template #heading>FruitMe</template>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

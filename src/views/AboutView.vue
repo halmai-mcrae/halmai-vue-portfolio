@@ -8,7 +8,9 @@
       <ul>
         <li>HTML & (S)CSS</li>
         <li>JavaScript(ES6+)</li>
+        <li>Go</li>
         <li>TypeScript</li>
+        <li>Python</li>
         <li>React</li>
         <li>UI / UX frameworks</li>
       </ul>
@@ -18,6 +20,8 @@
         <li>Redux</li>
         <li>Next.js</li>
         <li>Node.js</li>
+        <li>Django</li>
+        <li>Nuxt.js</li>
       </ul>
     <div class="about">
       I am currently looking for new opportunies, either remote or here in Wellington. 
