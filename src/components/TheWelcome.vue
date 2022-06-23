@@ -21,14 +21,10 @@ import { RouterLink, RouterView }from "vue-router";
     <template #heading>Manu Mana</template>
     <!-- <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js"
       >StackOverflow</a -->
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
-
-    <br />
-
-    Further information is available in <code>README.md</code>.
+Manu Mana is more than a web application: the project is about design, protecting taonga, relationships, and learning in a digital age. It is also an exploration of what it means to be an ethical technologist working in bicultural Aotearoa.
+<br />
+<!-- 
+    Further information is available in <code>README.md</code>. -->
   </WelcomeItem>
 
   <WelcomeItem>
