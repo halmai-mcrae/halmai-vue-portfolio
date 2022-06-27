@@ -27,7 +27,7 @@
       I am currently looking for new opportunies, either remote or here in Wellington. 
       If you'd like to chat, or have something in mind you think I'd be a good fit for, then please
       </div>
-      <a class= "about" href="mailto: halmaimcrae1@gmail.com">get in touch with me.</a>
+      <a class="mail" href="mailto: halmaimcrae1@gmail.com">get in touch with me.</a>
       </div>
     </h3>
   </div>
@@ -47,12 +47,17 @@
     display: grid;
     margin: 10px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   ul { 
   display: inline-block; 
   margin-top: 10px;
+  }
+  .mail {
+    display: flex-end;
+    align-items: center;
+    margin-left: 10px;
   }
 }
 </style>
