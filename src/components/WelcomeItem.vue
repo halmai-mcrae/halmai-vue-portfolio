@@ -83,4 +83,10 @@ h3 {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  i {
+    display: none;
+  }
+
+}
 </style>

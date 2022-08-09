@@ -8,20 +8,18 @@
       <ul>
         <li>HTML & (S)CSS</li>
         <li>JavaScript(ES6+)</li>
-        <li>Go</li>
-        <li>TypeScript</li>
         <li>Python</li>
+        <li>TypeScript</li>
+        <li>Django</li>
         <li>React</li>
-        <li>UI / UX frameworks</li>
       </ul>
       <ul class="list">
-        <li>ExpressJS</li>
         <li>Vue</li>
         <li>Redux</li>
         <li>NextJS</li>
-        <li>NodeJS</li>
-        <li>Django</li>
+        <li>Mongo DB</li>
         <li>NuxtJS</li>
+        <li>UI / UX frameworks</li>
       </ul>
     <div class="about">
       I am currently looking for new opportunies, either remote or here in Wellington. 
@@ -59,5 +57,16 @@
     align-items: center;
     margin-left: 10px;
   }
+
+  @media (min-width: 500px) {
+  li {
+    color: #8C8686;
+  }
+  ul { 
+  display: inline-block; 
+  margin-top: 10px;
+  }
+
+}
 }
 </style>
