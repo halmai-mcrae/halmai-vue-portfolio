@@ -19,7 +19,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      <a href="src/assets/halmai-mcrae-resume-merged.pdf" target="_blank">
+      <a href="/halmai-mcrae-resume-merged.pdf" target="_blank">
         Resume
       </a>
       </nav>
