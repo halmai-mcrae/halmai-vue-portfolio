@@ -49,24 +49,17 @@
   }
 
   ul { 
-  display: inline-block; 
-  margin-top: 10px;
+    display: inline-block; 
+    margin-top: 10px;
   }
+
   .mail {
     display: flex-end;
     align-items: center;
     margin-left: 10px;
+  }  
   }
+/* TODO:
+make list responsive */
 
-  @media (min-width: 500px) {
-  li {
-    color: #8C8686;
-  }
-  ul { 
-  display: inline-block; 
-  margin-top: 10px;
-  }
-
-}
-}
 </style>

@@ -18,13 +18,12 @@ import { RouterLink, RouterView }from "vue-router";
     <template #icon>
 <a  href="https://www.linkedin.com/in/halmai-mcrae/" ><font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2" /></a>
     </template>
-    <template #heading>Manu Mana</template>
+    <template #heading><a href="https://manu-mana.herokuapp.com/">Manu Mana</a></template>
     <!-- <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js"
       >StackOverflow</a -->
-Manu Mana is more than a web application: the project is about design, protecting taonga, relationships, and learning in a digital age. It is also an exploration of what it means to be an ethical technologist working in bicultural Aotearoa.
+Manu Mana is more than a web application to locate native New Zealand birds: it's about design, protecting Māori taonga, relationships, and learning in a digital age.
 <br />
-<!-- 
-    Further information is available in <code>README.md</code>. -->
+    Further information is available in <a href="https://github.com/halmai-mcrae/Manu-Mana#readme"><code>README.md.</code></a>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -33,11 +32,13 @@ Manu Mana is more than a web application: the project is about design, protectin
 <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
 </a>
     </template>
-    <template #heading>FruitMe</template>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
+    <template #heading><a href="/">Frulu Store®</a> <small>is under construction. Check back soon.</small></template>
+    Frulu Store is a e-commerce site for the sale of Frulu products.
+    They're bringing fruit back to life with a revolutionary new snack store.
+    <p>
+      One vision. One ingredient. One incredible crunch.
+    </p>
+    
   </WelcomeItem>
 
   <WelcomeItem>
@@ -46,9 +47,13 @@ Manu Mana is more than a web application: the project is about design, protectin
       <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
     </a> 
     </template>
-    <template #heading>Another project</template>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <template #heading><a href="/">The Painter Guy™</a> <small>is under construction. Check back soon.</small>
+    </template>
+    A full-stack business application, including an online booking system and merchandise store.
+    Choose these dedicated, full-service residential and commercial painters for your next renovation.
+    Until their new site is live, check them out on Instagram <a href="https://www.instagram.com/_thepainterguy/">@_thepainterguy</a>.
+    
+    
   </WelcomeItem>
 
   <WelcomeItem>
@@ -57,9 +62,7 @@ Manu Mana is more than a web application: the project is about design, protectin
       </RouterLink>
   <RouterView />
     </template>
-    <template #heading>More projects</template>
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+    <template #heading><a href="/">More projects</a></template>
+    Coming soon. In the meantime, check out my <a href="https://github.com/halmai-mcrae">GitHub</a> and <a href="https://www.linkedin.com/in/halmai-mcrae/">LinkedIn</a>.
   </WelcomeItem>
 </template>

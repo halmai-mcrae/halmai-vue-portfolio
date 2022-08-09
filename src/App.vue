@@ -7,21 +7,37 @@ import HelloWorld from "@/components/HelloWorld.vue";
   <header>
     <img
       alt="hm script"
-      className="logo"
+      class="logo"
       src="@/assets/hmlogo.png"
       width="180"
       height="220"
     />
 
-    <div className="wrapper">
+    <div class="wrapper">
       <HelloWorld msg="Halmai McRae" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       <a href="src/assets/halmai-mcrae-resume-merged.pdf" target="_blank">
-          Resume
+        Resume
       </a>
+      </nav>
+      <nav class="nav-hidden">
+        <a href="https://github.com/halmai-mcrae">
+  <font-awesome-icon icon="fa-brands fa-github" transform="grow-14 down-2"/>
+  </a>
+  <a href="https://www.linkedin.com/in/halmai-mcrae/">
+    <font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2"/>
+  </a>
+      <a href="https://medium.com/@halmaimcrae">
+        <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
+      </a>
+      <a href="mailto: halmaimcrae1@gmail.com">
+      <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
+    </a> 
+    <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-10 down-1"/>
+      </RouterLink>
       </nav>
     </div>
   </header>
@@ -55,6 +71,10 @@ a,
   color: #8C8686;
   transition: 0.4s;
 }
+
+.nav-hidden {
+    display: none;
+  }
 
 @media (hover: hover) {
   a:hover {
@@ -113,7 +133,7 @@ nav a:first-of-type {
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 0 0 0;
   }
 
   nav {
@@ -123,6 +143,12 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .nav-hidden {
+    display: block;
+    margin-bottom: 20px;
   }
 }
 </style>
