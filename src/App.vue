@@ -150,5 +150,8 @@ nav a:first-of-type {
     display: block;
     margin-bottom: 20px;
   }
+  .nav-hidden :hover {
+    background-color: transparent;
+  }
 }
 </style>

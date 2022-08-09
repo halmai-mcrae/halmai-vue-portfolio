@@ -32,12 +32,10 @@ Manu Mana is more than a web application to locate native New Zealand birds: it'
 <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
 </a>
     </template>
-    <template #heading><a href="/">Frulu Store®</a> <small>is under construction. Check back soon.</small></template>
-    Frulu Store is a e-commerce site for the sale of Frulu products.
+    <template #heading><a href="/">Frulu Store®</a> <small>is currently in development.</small></template>
+    Frulu Store is a e-commerce site made with React for the sale of Frulu products.
     They're bringing fruit back to life with a revolutionary new snack store.
-    <p>
-      One vision. One ingredient. One incredible crunch.
-    </p>
+    One vision. One ingredient. One incredible crunch.
     
   </WelcomeItem>
 
@@ -47,11 +45,11 @@ Manu Mana is more than a web application to locate native New Zealand birds: it'
       <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
     </a> 
     </template>
-    <template #heading><a href="/">The Painter Guy™</a> <small>is under construction. Check back soon.</small>
+    <template #heading><a href="/">The Painter Guy™</a> <small>is currently in development.</small>
     </template>
     A full-stack business application, including an online booking system and merchandise store.
     Choose these dedicated, full-service residential and commercial painters for your next renovation.
-    Until their new site is live, check them out on Instagram <a href="https://www.instagram.com/_thepainterguy/">@_thepainterguy</a>.
+    Until the new site is live, follow them on Instagram <a href="https://www.instagram.com/_thepainterguy/">@_thepainterguy</a>.
     
     
   </WelcomeItem>
