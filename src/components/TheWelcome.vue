@@ -41,7 +41,7 @@ Manu Mana is more than a web application to locate native New Zealand birds: it'
 
   <WelcomeItem>
     <template #icon>
-    <a href="mailto: halmaimcrae1@gmail.com">
+    <a href="mailto: hello@halmaimcrae.co.nz">
       <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
     </a> 
     </template>

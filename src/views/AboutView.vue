@@ -25,7 +25,7 @@
       I am currently looking for new opportunies, either remote or here in Wellington. 
       If you'd like to chat, or have something in mind you think I'd be a good fit for, then please
       </div>
-      <a class="mail" href="mailto: halmaimcrae1@gmail.com">get in touch with me.</a>
+      <a class="mail" href="mailto: hello@halmaimcrae.co.nz">get in touch with me.</a>
       </div>
     </h3>
   </div>
