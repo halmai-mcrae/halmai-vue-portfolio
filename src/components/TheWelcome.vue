@@ -61,6 +61,6 @@ Manu Mana is more than a web application to locate native New Zealand birds: it'
   <RouterView />
     </template>
     <template #heading><a href="/">More projects</a></template>
-    Coming soon. In the meantime, check out my <a href="https://github.com/halmai-mcrae">GitHub</a> and <a href="https://www.linkedin.com/in/halmai-mcrae/">LinkedIn</a>.
+    Coming soon. In the meantime, check out my <a href="https://github.com/halmai-mcrae">GitHub</a>, <a href="https://www.linkedin.com/in/halmai-mcrae/">LinkedIn</a> or <a href="https://medium.com/@halmaimcrae">Medium</a>.
   </WelcomeItem>
 </template>
