@@ -12,33 +12,36 @@ import HelloWorld from "@/components/HelloWorld.vue";
       width="180"
       height="220"
     />
-
+    
     <div class="wrapper">
       <HelloWorld msg="Halmai McRae" />
-
-      <nav>
+      
+      <nav class="nav">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       <a href="/halmai-mcrae-resume-merged.pdf" target="_blank">
         Resume
       </a>
       </nav>
+      
       <nav class="nav-hidden">
         <a href="https://github.com/halmai-mcrae">
-  <font-awesome-icon icon="fa-brands fa-github" transform="grow-14 down-2"/>
-  </a>
-  <a href="https://www.linkedin.com/in/halmai-mcrae/">
-    <font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2"/>
-  </a>
-      <a href="https://medium.com/@halmaimcrae">
-        <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
-      </a>
-      <a href="mailto: halmaimcrae1@gmail.com">
-      <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
-    </a> 
-    <RouterLink to="/interests"><font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-10 down-1"/>
+          <font-awesome-icon icon="fa-brands fa-github" transform="grow-14 down-2"/>
+        </a>
+        <a href="https://www.linkedin.com/in/halmai-mcrae/">
+          <font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2"/>
+        </a>
+        <a href="https://medium.com/@halmaimcrae">
+          <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
+        </a>
+        <a href="mailto: hello@halmaimcrae.co.nz">
+          <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
+        </a> 
+    <RouterLink to="/interests">
+      <font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-10 down-1"/>
       </RouterLink>
       </nav>
+
     </div>
   </header>
 
@@ -68,7 +71,7 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: #8C8686;
+  color:  #B2ADB3;
   transition: 0.4s;
 }
 
@@ -78,7 +81,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: #e5e6e4;
+    background-color: transparent;
   }
 }
 
@@ -146,12 +149,22 @@ nav a:first-of-type {
   }
 }
 @media (max-width: 1024px) {
+  nav {
+    font-size: 2.5vh;
+  }
   .nav-hidden {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    padding: 10px;
   }
+
   .nav-hidden :hover {
     background-color: transparent;
+  }
+
+  .logo {
+    margin: 10 10 10 10;
+    ;
   }
 }
 </style>

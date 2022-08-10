@@ -29,7 +29,9 @@ i {
   place-content: center;
   width: 40px;
   height: 40px;
+  color: #8C8686 !important;
 }
+
 i :hover {
     background-color: #140f0f;
   }

@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h2>Kia ora, my name is</h2>
     <h1 class="green">{{ msg }}.</h1>
-    <h1>I build things for the web.</h1>
+    <h1 class="sub">I build things for the web.</h1>
     <h3>
       I'm a graduate full-stack developer based in Wellington, NZ specialising in
       building exceptional websites, applications, and everything in between.
@@ -21,6 +21,7 @@ h1 {
   font-weight: 500;
   font-size: 2.6rem;
   top: -10px;
+  color: #B88F48;
 }
 
 h3 {
@@ -31,11 +32,17 @@ h3 {
 .greetings h3 {
   text-align: center;
 }
+.sub {
+  color: #e5e6e4;
+}
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .greetings h1,
   .greetings h3 {
     text-align: left;
+  }
+  .greetings h2 {
+    margin-left: -1rem;
   }
 }
 </style>

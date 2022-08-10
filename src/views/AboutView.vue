@@ -13,12 +13,12 @@
         <li>Django</li>
         <li>React</li>
       </ul>
-      <ul class="list">
+      <ul>
         <li>Vue</li>
         <li>Redux</li>
-        <li>NextJS</li>
+        <li>Next.js</li>
         <li>Mongo DB</li>
-        <li>NuxtJS</li>
+        <li>Nuxt.js</li>
         <li>UI / UX frameworks</li>
       </ul>
     <div class="about">
@@ -59,7 +59,24 @@
     margin-left: 10px;
   }  
   }
-/* TODO:
-make list responsive */
+
+@media (max-width: 1024px) {
+  .about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  li {
+  text-align: left;
+  margin: 10px;
+  }
+  
+  .mail {
+    display: flex-end;
+    align-items: center;
+    margin-left: 10px;
+  }  
+  }
 
 </style>
