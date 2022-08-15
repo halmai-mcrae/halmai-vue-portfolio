@@ -163,8 +163,8 @@ nav a:first-of-type {
   }
 
   .logo {
-    margin: 10 10 10 10;
-    ;
+    margin-top: 1.5rem;
+    margin-bottom: -25px
   }
 }
 </style>
