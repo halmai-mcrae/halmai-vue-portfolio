@@ -12,10 +12,12 @@
         <li>TypeScript</li>
         <li>Django</li>
         <li>React</li>
+        <li>AWS</li>
       </ul>
       <ul>
         <li>Vue</li>
         <li>Redux</li>
+        <li>jQuery</li>
         <li>Next.js</li>
         <li>Mongo DB</li>
         <li>Nuxt.js</li>
