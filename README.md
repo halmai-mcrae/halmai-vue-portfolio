@@ -1,52 +1,14 @@
-# halmai-vue-portfolio
+# My Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my first personal website. It was created to extend my visibility as a developer and my first time using Vue and TypeScript. I am looking foward to adding further projects to it!
 
-## Recommended IDE Setup
+* Made using Vue and TypeScript
+* Deployed to a custom domain via Netlify CLI
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Deployed at [https://www.halmaimcrae.co.nz/](https://www.halmaimcrae.co.nz/)
 
-## Type Support for `.vue` Imports in TS
+## Demo Pictures
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+<img width="400" alt="demo" src="https://user-images.githubusercontent.com/98130939/187570741-fe431b0e-f39d-46cf-83ac-15d6b129cae6.png">
+<img width="400" alt="demo3" src="https://user-images.githubusercontent.com/98130939/187571401-a5659bf8-7aad-4eb7-8ff2-6dcec2d3f88d.png">
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
