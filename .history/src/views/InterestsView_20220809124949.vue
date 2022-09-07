@@ -164,7 +164,7 @@ body {
   padding: 25px;
   box-sizing: border-box;
   min-height: 100px;
-  background: #1a1a1a;
+  background: #140f0f;
 }
 .card .image {
   z-index: 1;
