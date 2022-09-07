@@ -162,9 +162,9 @@ nav a:first-of-type {
     background-color: transparent;
   }
 
-  @media (max-width: 495px) {
+  @media (min-width: 495px) {
   body {
-    text-align: left !important;
+    text-align: left ;
   }
 
   /* .logo {

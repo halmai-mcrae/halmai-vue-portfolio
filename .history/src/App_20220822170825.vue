@@ -162,15 +162,9 @@ nav a:first-of-type {
     background-color: transparent;
   }
 
-  @media (max-width: 495px) {
-  body {
-    text-align: left !important;
-  }
-
   /* .logo {
     margin-top: 1.5rem;
     margin-bottom: -25px
   } */
-}
 }
 </style>

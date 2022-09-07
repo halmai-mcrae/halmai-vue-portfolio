@@ -72,7 +72,7 @@ import {
       </a>
     </template>
     <template #heading
-      ><a href="/">The Painter Guy NZ™</a>
+      ><a href="/">The Painter Guy™</a>
       <small>is currently in development.</small>
     </template>
     A full-stack business application, including
@@ -97,11 +97,11 @@ import {
       <RouterView />
     </template>
     <template #heading
-      ><RouterLink to="/projects">More projects</RouterLink></template
+      ><a href="/">More projects</a></template
     >
     Coming soon. In the meantime, check out my
     <a href="https://github.com/halmai-mcrae"
       >GitHub</a
-    >.
+    > for more.
   </WelcomeItem>
 </template>

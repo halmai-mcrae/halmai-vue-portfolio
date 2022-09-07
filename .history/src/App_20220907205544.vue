@@ -164,7 +164,7 @@ nav a:first-of-type {
 
   @media (max-width: 495px) {
   body {
-    text-align: left !important;
+    text-align: left;
   }
 
   /* .logo {

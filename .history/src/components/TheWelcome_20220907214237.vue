@@ -97,7 +97,7 @@ import {
       <RouterView />
     </template>
     <template #heading
-      ><RouterLink to="/projects">More projects</RouterLink></template
+      ><RouterLink to="/projects">More projects</a></template
     >
     Coming soon. In the meantime, check out my
     <a href="https://github.com/halmai-mcrae"

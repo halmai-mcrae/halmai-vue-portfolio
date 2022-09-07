@@ -97,11 +97,11 @@ import {
       <RouterView />
     </template>
     <template #heading
-      ><RouterLink to="/projects">More projects</RouterLink></template
+      ><a href="/">More projects</a></template
     >
     Coming soon. In the meantime, check out my
     <a href="https://github.com/halmai-mcrae"
       >GitHub</a
-    >.
+    > for more.
   </WelcomeItem>
 </template>

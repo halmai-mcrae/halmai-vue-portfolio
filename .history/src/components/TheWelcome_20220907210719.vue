@@ -33,9 +33,12 @@ import {
         >Manu Mana</a
       >
     </template>
-    Manu Mana is more than a web application to locate native birds in Aotearoa: it's about
+    Manu Mana is more than a web application to
+    locate native New Zealand birds: it's about
     design, protecting Māori taonga,
-    relationships, and learning in a digital age. Further information in
+    relationships, and learning in a digital age.
+    <br />
+    Further information is available in
     <a
       href="https://github.com/halmai-mcrae/Manu-Mana#readme"
       ><code>README.md.</code></a
@@ -72,7 +75,7 @@ import {
       </a>
     </template>
     <template #heading
-      ><a href="/">The Painter Guy NZ™</a>
+      ><a href="/">The Painter Guy™</a>
       <small>is currently in development.</small>
     </template>
     A full-stack business application, including
@@ -97,11 +100,20 @@ import {
       <RouterView />
     </template>
     <template #heading
-      ><RouterLink to="/projects">More projects</RouterLink></template
+      ><a href="/">More projects</a></template
     >
     Coming soon. In the meantime, check out my
     <a href="https://github.com/halmai-mcrae"
       >GitHub</a
-    >.
+    >,
+    <a
+      href="https://www.linkedin.com/in/halmai-mcrae/"
+      >LinkedIn</a
+    >
+    or
+    <a href="https://medium.com/@halmaimcrae"
+      >Medium</a
+    >
+    
   </WelcomeItem>
 </template>
