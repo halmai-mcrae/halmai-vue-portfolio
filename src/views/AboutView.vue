@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <h3>
-      I am passionate about building excellent software that provides
-      pixel-perfect, performant experiences. Here are a few technologies I've
+      I am passionate about building software and applications that provide
+      pixel-perfect, performant experiences. Here are the technologies I've
       been working with recently.
       <div>
       <ul>
@@ -13,6 +13,8 @@
         <li>Django</li>
         <li>React</li>
         <li>AWS</li>
+        <li>Node.js</li>
+        <li>Angular</li>
       </ul>
       <ul>
         <li>Vue</li>
@@ -21,10 +23,12 @@
         <li>Next.js</li>
         <li>Mongo DB</li>
         <li>Nuxt.js</li>
+        <li>Express.js</li>
+        <li>.NET</li>
         <li>UI / UX frameworks</li>
       </ul>
     <div class="about">
-      I am currently looking for new opportunies, either remote or here in Wellington. 
+      I am always curious about new opportunies, either remote or here in Wellington. 
       If you'd like to chat, or have something in mind you think I'd be a good fit for, then please
       </div>
       <a class="mail" href="mailto: hello@halmaimcrae.co.nz">get in touch with me.</a>

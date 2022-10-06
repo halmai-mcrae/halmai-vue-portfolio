@@ -10,8 +10,10 @@ defineProps<{
     <h1 class="green">{{ msg }}.</h1>
     <h1 class="sub">I build things for the web.</h1>
     <h3>
-      I'm a graduate full-stack developer based in Wellington, NZ specialising in
-      building exceptional websites, applications, and everything in between.
+      Software developer based in Wellington, Aotearoa.
+      <br />
+      <br/>
+      I specialise in building exceptional websites, applications, and everything in between.
     </h3>
   </div>
 </template>
