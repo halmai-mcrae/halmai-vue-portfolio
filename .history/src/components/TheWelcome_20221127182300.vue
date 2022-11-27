@@ -72,19 +72,17 @@ import {
       </a>
     </template>
     <template #heading
-      ><a href="https://thepainterguy.co.nz/">The Painter Guy®</a>
-      <small></small>
+      ><a href="www.thepainterguy.co.nz">The Painter Guy NZ™</a>
+      <small>is currently in development.</small>
     </template>
     A full-stack business application, including
-    an online booking system and (soon) a merchandise
-    store. Follow them on Instagram
+    an online booking system and merchandise
+    store. Until the new site is live,
+    follow them on Instagram
     <a
       href="https://www.instagram.com/_thepainterguy/"
       >@_thepainterguy</a
-    >. Further information in
-    <a
-      href="https://github.com/halmai-mcrae/v2-the-painter-guy-frontend"
-      ><code>README.md.</code></a>
+    >.
   </WelcomeItem>
 
   <WelcomeItem>

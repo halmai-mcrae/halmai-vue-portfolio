@@ -81,7 +81,7 @@ import {
     <a
       href="https://www.instagram.com/_thepainterguy/"
       >@_thepainterguy</a
-    >. Further information in
+    >.Further information in
     <a
       href="https://github.com/halmai-mcrae/v2-the-painter-guy-frontend"
       ><code>README.md.</code></a>
