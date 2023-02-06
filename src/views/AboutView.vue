@@ -10,22 +10,16 @@
         <li>JavaScript(ES6+)</li>
         <li>Python</li>
         <li>TypeScript</li>
-        <li>Django</li>
         <li>React</li>
-        <li>AWS</li>
-        <li>Node.js</li>
         <li>Angular</li>
       </ul>
       <ul>
         <li>Vue</li>
         <li>Redux</li>
         <li>jQuery</li>
+        <li>AWS</li>
         <li>Next.js</li>
-        <li>Mongo DB</li>
-        <li>Nuxt.js</li>
-        <li>Express.js</li>
         <li>.NET</li>
-        <li>UI / UX frameworks</li>
       </ul>
     <div class="about">
       I am always curious about new opportunies, either remote or here in Wellington. 
