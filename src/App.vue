@@ -173,7 +173,8 @@ nav a:first-of-type {
   .nav-hidden {
     display: block;
     margin-bottom: 2rem;
-    padding: 10px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 2rem;
   }
 
   .nav-hidden :hover {
