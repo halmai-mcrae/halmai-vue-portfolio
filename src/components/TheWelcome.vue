@@ -9,7 +9,10 @@ import {
 <template>
   <WelcomeItem>
     <template #icon>
-      <a href="https://github.com/halmai-mcrae">
+      <a
+        href="https://github.com/halmai-mcrae"
+        target="_blank"
+      >
         <font-awesome-icon
           icon="fa-brands fa-github"
           transform="grow-14 down-2"
@@ -23,13 +26,16 @@ import {
     <template #icon>
       <a
         href="https://www.linkedin.com/in/halmai-mcrae/"
+        target="_blank"
         ><font-awesome-icon
           icon="fa-brands fa-linkedin-in"
           transform="grow-12 down-2"
       /></a>
     </template>
     <template #heading
-      ><a href="https://manu-mana.herokuapp.com/"
+      ><a
+        href="https://manu-mana.herokuapp.com/"
+        target="_blank"
         >Manu Mana</a
       >
     </template>
@@ -40,13 +46,17 @@ import {
     Further information in
     <a
       href="https://github.com/halmai-mcrae/Manu-Mana#readme"
+      target="_blank"
       ><code>README.md.</code></a
     >
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <a href="https://medium.com/@halmaimcrae">
+      <a
+        href="https://medium.com/@halmaimcrae"
+        target="_blank"
+      >
         <font-awesome-icon
           icon="fa-brands fa-medium"
           transform="grow-10 down-2"
@@ -57,6 +67,7 @@ import {
     <template #heading
       ><a
         href="https://cleantechmaintenance.co.nz/"
+        target="_blank"
         >Clean Tech</a
       >
     </template>
@@ -66,7 +77,10 @@ import {
 
   <WelcomeItem>
     <template #icon>
-      <a href="mailto: hello@halmaimcrae.co.nz">
+      <a
+        href="mailto: hello@halmaimcrae.co.nz"
+        target="_blank"
+      >
         <font-awesome-icon
           icon="fa-solid fa-envelope"
           transform="grow-11 down-1"
@@ -74,7 +88,9 @@ import {
       </a>
     </template>
     <template #heading
-      ><a href="https://thepainterguy.co.nz/"
+      ><a
+        href="https://thepainterguy.co.nz/"
+        target="_blank"
         >The Painter Guy®</a
       >
       <small></small>
@@ -84,10 +100,12 @@ import {
     merchandise store. Follow them on Instagram
     <a
       href="https://www.instagram.com/_thepainterguy/"
+      target="_blank"
       >@_thepainterguy</a
     >. Further information in
     <a
       href="https://github.com/halmai-mcrae/v2-the-painter-guy-frontend"
+      target="_blank"
       ><code>README.md.</code></a
     >
   </WelcomeItem>
@@ -109,7 +127,9 @@ import {
       ></template
     >
     Also, check out my
-    <a href="https://github.com/halmai-mcrae"
+    <a
+      href="https://github.com/halmai-mcrae"
+      target="_blank"
       >GitHub</a
     >.
   </WelcomeItem>

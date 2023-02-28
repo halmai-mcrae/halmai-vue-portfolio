@@ -9,18 +9,20 @@
       <ul>
         <li>HTML & (S)CSS</li>
         <li>JavaScript(ES6+)</li>
-        <li>Python</li>
         <li>TypeScript</li>
         <li>React</li>
         <li>Angular</li>
+        <li>Vue</li>
+        <li>REST APIs</li>
       </ul>
       <ul>
-        <li>Vue</li>
-        <li>Redux</li>
-        <li>jQuery</li>
-        <li>AWS</li>
-        <li>Next.js</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>C#</li>
         <li>.NET</li>
+        <li>Redux</li>
+        <li>Flutter</li>
+        <li>Google Cloud Platform</li>
       </ul>
     </div>
     <p>
@@ -44,7 +46,7 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 5rem;
   }
 
   ul {
@@ -53,7 +55,6 @@
   }
 
   li {
-    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -64,7 +65,7 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 5rem;
   }
 
   ul {
