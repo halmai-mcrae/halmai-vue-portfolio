@@ -16,7 +16,7 @@ import {
         />
       </a>
     </template>
-    Some recent things I've been working on.
+    Recent things I've been working on.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -33,9 +33,11 @@ import {
         >Manu Mana</a
       >
     </template>
-    Manu Mana is more than a web application to locate native birds in Aotearoa: it's about
+    Manu Mana is more than a web application to
+    locate native birds in Aotearoa: it's about
     design, protecting Māori taonga,
-    relationships, and learning in a digital age. Further information in
+    relationships, and learning in a digital age.
+    Further information in
     <a
       href="https://github.com/halmai-mcrae/Manu-Mana#readme"
       ><code>README.md.</code></a
@@ -53,13 +55,13 @@ import {
     </template>
 
     <template #heading
-      ><a href="/">Frulu Store®</a>
-      <small>is currently in development.</small>
+      ><a
+        href="https://cleantechmaintenance.co.nz/"
+        >Clean Tech</a
+      >
     </template>
-    Frulu Store is a e-commerce site made with
-    React for the sale of Frulu products. They're
-    bringing fruit back to life with a
-    revolutionary new snack store.
+    A site made with React for a commercial
+    maintenance company.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -72,19 +74,22 @@ import {
       </a>
     </template>
     <template #heading
-      ><a href="https://thepainterguy.co.nz/">The Painter Guy®</a>
+      ><a href="https://thepainterguy.co.nz/"
+        >The Painter Guy®</a
+      >
       <small></small>
     </template>
     A full-stack business application, including
-    an online booking system and (soon) a merchandise
-    store. Follow them on Instagram
+    an online booking system and (soon) a
+    merchandise store. Follow them on Instagram
     <a
       href="https://www.instagram.com/_thepainterguy/"
       >@_thepainterguy</a
     >. Further information in
     <a
       href="https://github.com/halmai-mcrae/v2-the-painter-guy-frontend"
-      ><code>README.md.</code></a>
+      ><code>README.md.</code></a
+    >
   </WelcomeItem>
 
   <WelcomeItem>
@@ -99,9 +104,11 @@ import {
       <RouterView />
     </template>
     <template #heading
-      ><RouterLink to="/projects">More projects</RouterLink></template
+      ><RouterLink to="/projects"
+        >More projects</RouterLink
+      ></template
     >
-    Coming soon. In the meantime, check out my
+    Also, check out my
     <a href="https://github.com/halmai-mcrae"
       >GitHub</a
     >.

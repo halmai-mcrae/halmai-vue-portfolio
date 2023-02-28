@@ -1,20 +1,22 @@
 <script setup lang="ts">
 defineProps<{
-  msg: string;
-}>();
+  msg: string
+}>()
 </script>
 
 <template>
   <div class="greetings">
     <h2>Kia ora, my name is</h2>
-    <h1 class="green">{{ msg }}.</h1>
-    <h1 class="sub">I build things for the web.</h1>
-    <h3>
-      Full Stack Developer based in Wellington, Aotearoa.
-      <br />
-      <br/>
-      I specialise in building exceptional websites, applications, and everything in between.
-    </h3>
+    <h1 class="gold">{{ msg }}.</h1>
+    <h1 class="sub">
+      I build things for the web.
+    </h1>
+    <br />
+    <h4>
+      Full Stack Developer, specialising in
+      websites, applications and everything in
+      between.
+    </h4>
   </div>
 </template>
 
@@ -22,29 +24,15 @@ defineProps<{
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  top: -10px;
-  color: #B88F48;
 }
 
-h3 {
-  font-size: 1.2rem;
+h4 {
+  font-weight: 500;
 }
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
 .sub {
-  color: #e5e6e4;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-  .greetings h2 {
-    margin-left: -1rem;
-  }
+  color: #eed2a8;
+  font-size: 1.8rem;
+  text-align: center;
 }
 </style>

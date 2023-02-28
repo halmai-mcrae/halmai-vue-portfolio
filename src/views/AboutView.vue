@@ -1,10 +1,11 @@
 <template>
   <div class="about">
-    <h3>
-      I am passionate about building software and applications that provide
-      pixel-perfect, performant experiences. Here are the technologies I've
-      been working with recently.
-      <div>
+    <p>
+      Here are the technologies I've been working
+      with recently.
+    </p>
+    <br />
+    <div class="grid-container">
       <ul>
         <li>HTML & (S)CSS</li>
         <li>JavaScript(ES6+)</li>
@@ -21,62 +22,60 @@
         <li>Next.js</li>
         <li>.NET</li>
       </ul>
-    <div class="about">
-      I am always curious about new opportunies, either remote or here in Wellington. 
-      If you'd like to chat, or have something in mind you think I'd be a good fit for, then please
-      </div>
-      <a class="mail" href="mailto: hello@halmaimcrae.co.nz">get in touch with me.</a>
-      </div>
-    </h3>
+    </div>
+    <p>
+      <br />
+      I am always curious about new opportunies,
+      either remote or here in Wellington. If
+      you'd like to chat, or have something in
+      mind you think I'd be a good fit for, then
+      please
+      <a
+        class="mail"
+        href="mailto:hello@halmaimcrae.co.nz"
+        >get in touch with me.</a
+      >
+    </p>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    margin-bottom: 10px;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
   }
 
   li {
-    color: #8C8686;
-    display: grid;
-    margin: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-
-  ul { 
-    display: inline-block; 
-    margin-top: 10px;
-  }
-
-  .mail {
-    display: flex-end;
-    align-items: center;
-    margin-left: 10px;
-  }  
-  }
+}
 
 @media (max-width: 1024px) {
-  .about {
-    display: flex;
-    align-items: center;
-    text-align: center;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
   }
 
   li {
-  text-align: left;
-  margin: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-  
-  .mail {
-    display: flex-end;
-    align-items: center;
-    margin-left: 10px;
-  }  
-  }
-
+}
 </style>

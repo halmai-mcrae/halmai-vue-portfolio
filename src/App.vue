@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+import {
+  RouterLink,
+  RouterView,
+} from 'vue-router'
+import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
@@ -10,46 +13,67 @@ import HelloWorld from "@/components/HelloWorld.vue";
       class="logo"
       src="@/assets/hmlogo.png"
       width="180"
-      height="220"
+      height="180"
     />
-    
+
     <div class="wrapper">
       <HelloWorld msg="Halmai McRae" />
-      
+
       <nav class="nav">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      <a href="/Halmai_McRae_Resume.pdf" target="_blank">
-        Resume
-      </a>
+        <RouterLink to="/contact"
+          >Contact</RouterLink
+        >
+        <a
+          href="/Halmai_McRae_Resume.pdf"
+          target="_blank"
+        >
+          Resume
+        </a>
       </nav>
-      
       <nav class="nav-hidden">
         <a href="https://github.com/halmai-mcrae">
-          <font-awesome-icon icon="fa-brands fa-github" transform="grow-14 down-2"/>
+          <font-awesome-icon
+            icon="fa-brands fa-github"
+            transform="grow-14 down-2"
+          />
         </a>
-        <a href="https://www.linkedin.com/in/halmai-mcrae/">
-          <font-awesome-icon icon="fa-brands fa-linkedin-in" transform="grow-12 down-2"/>
+        <a
+          href="https://www.linkedin.com/in/halmai-mcrae/"
+        >
+          <font-awesome-icon
+            icon="fa-brands fa-linkedin-in"
+            transform="grow-12 down-2"
+          />
         </a>
         <a href="https://medium.com/@halmaimcrae">
-          <font-awesome-icon icon="fa-brands fa-medium" transform="grow-10 down-2"/>
+          <font-awesome-icon
+            icon="fa-brands fa-medium"
+            transform="grow-10 down-2"
+          />
         </a>
         <a href="mailto: hello@halmaimcrae.co.nz">
-          <font-awesome-icon icon="fa-solid fa-envelope" transform="grow-11 down-1"/>
-        </a> 
-    <RouterLink to="/interests">
-      <font-awesome-icon icon="fa-solid fa-heart" fixed-width transform="grow-10 down-1"/>
-      </RouterLink>
+          <font-awesome-icon
+            icon="fa-solid fa-envelope"
+            transform="grow-11 down-1"
+          />
+        </a>
+        <RouterLink to="/interests">
+          <font-awesome-icon
+            icon="fa-solid fa-heart"
+            fixed-width
+            transform="grow-10 down-1"
+          />
+        </RouterLink>
       </nav>
-
     </div>
   </header>
-
   <RouterView />
 </template>
 
 <style>
-@import "@/assets/base.css";
+@import '@/assets/base.css';
 
 #app {
   max-width: 1200px;
@@ -65,19 +89,25 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--color-border);
 }
 
-a,
-.green {
+.gold {
+  color: #b88f48;
+}
+
+a {
   text-decoration: none;
-  color:  #B2ADB3;
+  color: #918f8c;
   transition: 0.4s;
 }
 
 .nav-hidden {
-    display: none;
-  }
+  display: none;
+}
 
 @media (hover: hover) {
   a:hover {
@@ -87,14 +117,14 @@ a,
 
 nav {
   width: 100%;
-  max-width: none;
-  font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  white-space: nowrap;
+  padding: 1rem 0;
 }
 
 nav a.router-link-exact-active {
-  color: #e5e6e4;
+  color: #eed2a8;
 }
 
 nav a.router-link-exact-active:hover {
@@ -138,20 +168,8 @@ nav a:first-of-type {
   .logo {
     margin: 0 1rem 0 0;
   }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
 }
 @media (max-width: 1024px) {
-  nav {
-    font-size: 2.5vh;
-  }
   .nav-hidden {
     display: block;
     margin-bottom: 2rem;
@@ -161,16 +179,5 @@ nav a:first-of-type {
   .nav-hidden :hover {
     background-color: transparent;
   }
-
-  @media (max-width: 495px) {
-  body {
-    text-align: left !important;
-  }
-
-  /* .logo {
-    margin-top: 1.5rem;
-    margin-bottom: -25px
-  } */
-}
 }
 </style>
