@@ -32,6 +32,10 @@
     <div>
       <button type="submit">Send</button>
     </div>
+    <br />
+    <div v-if="alert" :class="[alertType]">
+      {{ alert }}
+    </div>
   </form>
 </template>
 
@@ -47,12 +51,21 @@ export default defineComponent({
       name: '',
       email: '',
       message: '',
+      alert: '', // new reactive property for alert message
     }
+  },
+  computed: {
+    alertType(): string {
+      return this.alert.startsWith('Error')
+        ? 'error'
+        : 'success'
+    },
   },
   methods: {
     async handleSubmit(): Promise<void> {
-      const serviceId = 'YOUR_SERVICE_ID' // Replace with your EmailJS service ID
-      const templateId = 'YOUR_TEMPLATE_ID' // Replace with your EmailJS template ID
+      const serviceId = 'service_sahxy0f'
+      const templateId = 'template_hnp3l95'
+      const userId = 'ZV0_wKZ_PpgWgVlnf'
 
       const params = {
         from_name: this.name,
@@ -65,9 +78,15 @@ export default defineComponent({
           await emailjs.send(
             serviceId,
             templateId,
-            params
+            params,
+            userId
           )
-        console.log('Email sent!', response)
+        console.log(
+          'Email sent sucessfully.',
+          response
+        )
+        this.alert =
+          'Email sent sucessfully. Thank you!'
         this.name = ''
         this.email = ''
         this.message = ''
@@ -76,11 +95,31 @@ export default defineComponent({
           'Error sending email',
           error
         )
+        this.alert =
+          'Error sending email. Please try again.'
       }
     },
   },
 })
 </script>
+
+<style scoped>
+.success {
+  background-color: #eed2a8;
+  color: #f58549;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: #eea8b8;
+  color: #f54988;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+</style>
 
 <style scoped>
 form {
