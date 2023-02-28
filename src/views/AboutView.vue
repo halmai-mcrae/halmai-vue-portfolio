@@ -22,7 +22,7 @@
         <li>.NET</li>
         <li>Redux</li>
         <li>Flutter</li>
-        <li>Google Cloud Platform</li>
+        <li>GCP</li>
       </ul>
     </div>
     <p>
