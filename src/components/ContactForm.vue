@@ -80,7 +80,7 @@ export default defineComponent({
 
       const params = {
         from_name: this.name,
-        from_phone: this.phone,
+        phone: this.phone,
         reply_to: this.email,
         message: this.message,
       }
