@@ -11,6 +11,16 @@
       />
     </div>
     <div>
+      <label for="phone"></label>
+      <input
+        type="phone"
+        id="phone"
+        v-model="phone"
+        placeholder="Phone"
+        required
+      />
+    </div>
+    <div>
       <label for="email"></label>
       <input
         type="email"
@@ -25,7 +35,7 @@
       <textarea
         id="message"
         v-model="message"
-        placeholder="Your message.."
+        placeholder="Type your message..."
         required
       ></textarea>
     </div>
@@ -50,6 +60,7 @@ export default defineComponent({
     return {
       name: '',
       email: '',
+      phone: '',
       message: '',
       alert: '', // new reactive property for alert message
     }
@@ -69,6 +80,7 @@ export default defineComponent({
 
       const params = {
         from_name: this.name,
+        from_phone: this.phone,
         reply_to: this.email,
         message: this.message,
       }
@@ -88,6 +100,7 @@ export default defineComponent({
         this.alert =
           'Email sent sucessfully. Thank you!'
         this.name = ''
+        this.phone = ''
         this.email = ''
         this.message = ''
       } catch (error) {
@@ -106,7 +119,8 @@ export default defineComponent({
 <style scoped>
 .success {
   background-color: #eed2a8;
-  color: #f58549;
+  color: #3d3d3d;
+
   width: fit-content;
   padding: 0.5rem;
   border-radius: 5px;
@@ -114,7 +128,7 @@ export default defineComponent({
 
 .error {
   background-color: #eea8b8;
-  color: #f54988;
+  color: #3d3d3d;
   width: fit-content;
   padding: 0.5rem;
   border-radius: 5px;

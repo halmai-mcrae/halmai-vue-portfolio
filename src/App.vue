@@ -194,8 +194,8 @@ nav a:first-of-type {
 
 @media (max-width: 768px) {
   .logo {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 }
 </style>
