@@ -191,4 +191,11 @@ nav a:first-of-type {
     background-color: transparent;
   }
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
 </style>
