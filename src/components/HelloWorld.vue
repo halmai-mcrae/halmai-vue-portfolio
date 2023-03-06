@@ -50,9 +50,8 @@ h4 {
   h2 {
     left: 0%;
   }
-  h2,
   h4 {
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
