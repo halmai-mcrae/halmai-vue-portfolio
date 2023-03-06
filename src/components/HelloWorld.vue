@@ -24,16 +24,35 @@ defineProps<{
 h1 {
   font-weight: 500;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 h4 {
   font-weight: 500;
-  text-align: center;
 }
 
 .sub {
   color: #eed2a8;
   font-size: 1.8rem;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    left: 20%;
+  }
+  h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    left: 0%;
+  }
+  h2,
+  h4 {
+    text-align: left;
+  }
 }
 </style>

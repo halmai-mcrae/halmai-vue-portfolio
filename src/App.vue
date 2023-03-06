@@ -32,51 +32,6 @@ import HelloWorld from '@/components/HelloWorld.vue'
           Resume
         </a>
       </nav>
-      <nav class="nav-hidden">
-        <a
-          href="https://github.com/halmai-mcrae"
-          target="_blank"
-        >
-          <font-awesome-icon
-            icon="fa-brands fa-github"
-            transform="grow-14 down-2"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/halmai-mcrae/"
-          target="_blank"
-        >
-          <font-awesome-icon
-            icon="fa-brands fa-linkedin-in"
-            transform="grow-12 down-2"
-          />
-        </a>
-        <a
-          href="https://medium.com/@halmaimcrae"
-          target="_blank"
-        >
-          <font-awesome-icon
-            icon="fa-brands fa-medium"
-            transform="grow-10 down-2"
-          />
-        </a>
-        <a
-          href="mailto: hello@halmaimcrae.co.nz"
-          target="_blank"
-        >
-          <font-awesome-icon
-            icon="fa-solid fa-envelope"
-            transform="grow-11 down-1"
-          />
-        </a>
-        <RouterLink to="/interests">
-          <font-awesome-icon
-            icon="fa-solid fa-heart"
-            fixed-width
-            transform="grow-10 down-1"
-          />
-        </RouterLink>
-      </nav>
     </div>
   </header>
   <RouterView />
@@ -107,6 +62,7 @@ header {
 
 .gold {
   color: #b88f48;
+  top: -0.5rem;
 }
 
 a {
@@ -117,6 +73,13 @@ a {
 
 .nav-hidden {
   display: none;
+}
+
+.copyright {
+  font-size: 0.5rem;
+  text-align: right;
+  margin-top: 1rem;
+  color: #918f8c;
 }
 
 @media (hover: hover) {
@@ -180,9 +143,12 @@ nav a:first-of-type {
   }
 }
 @media (max-width: 1024px) {
+  .nav {
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 2rem;
+  }
   .nav-hidden {
     display: block;
-    margin-bottom: 2rem;
     border-top: 1px solid var(--color-border);
     padding-top: 2rem;
   }

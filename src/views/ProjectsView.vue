@@ -1,6 +1,6 @@
 <template>
   <div>
-    Also, check out my
+    Coming soon. In the meantime, check out my
     <a href="https://github.com/halmai-mcrae"
       >GitHub</a
     >.
