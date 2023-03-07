@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NavHidden from '@/components/NavHidden.vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -36,8 +37,8 @@ import NavHidden from '@/components/NavHidden.vue'
       you'd like to chat, or have something in
       mind you think I'd be a good fit for, then
       please
-      <a class="mail" href="/contact"
-        >get in touch with me.</a
+      <RouterLink to="/contact"
+        >get in touch with me.</RouterLink
       >
     </p>
   </div>
