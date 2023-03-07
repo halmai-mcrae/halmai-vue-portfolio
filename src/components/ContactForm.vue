@@ -1,3 +1,73 @@
+<script lang="ts">
+import { defineComponent } from 'vue'
+import emailjs, {
+  type EmailJSResponseStatus,
+} from 'emailjs-com'
+import NavHidden from './NavHidden.vue'
+
+export default defineComponent({
+  data() {
+    return {
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+      alert: '', // new reactive property for alert message
+    }
+  },
+  computed: {
+    alertType(): string {
+      return this.alert.startsWith('Error')
+        ? 'error'
+        : 'success'
+    },
+  },
+  methods: {
+    async handleSubmit(): Promise<void> {
+      const serviceId = 'service_sahxy0f'
+      const templateId = 'template_hnp3l95'
+      const userId = 'ZV0_wKZ_PpgWgVlnf'
+      const params = {
+        from_name: this.name,
+        phone: this.phone,
+        reply_to: this.email,
+        message: this.message,
+      }
+      try {
+        const response: EmailJSResponseStatus =
+          await emailjs.send(
+            serviceId,
+            templateId,
+            params,
+            userId
+          )
+        console.log(
+          'Email sent sucessfully.',
+          response
+        )
+        this.alert =
+          'Email sent sucessfully. Thank you!'
+        this.name = ''
+        this.phone = ''
+        this.email = ''
+        this.message = ''
+      } catch (error) {
+        console.error(
+          'Error sending email',
+          error
+        )
+        this.alert =
+          'Error sending email. Please try again.'
+      }
+    },
+  },
+
+  components: {
+    NavHidden,
+  },
+})
+</script>
+
 <template>
   <form @submit.prevent="handleSubmit">
     <div>
@@ -47,74 +117,8 @@
       {{ alert }}
     </div>
   </form>
+  <NavHidden />
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-import emailjs, {
-  type EmailJSResponseStatus,
-} from 'emailjs-com'
-
-export default defineComponent({
-  data() {
-    return {
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-      alert: '', // new reactive property for alert message
-    }
-  },
-  computed: {
-    alertType(): string {
-      return this.alert.startsWith('Error')
-        ? 'error'
-        : 'success'
-    },
-  },
-  methods: {
-    async handleSubmit(): Promise<void> {
-      const serviceId = 'service_sahxy0f'
-      const templateId = 'template_hnp3l95'
-      const userId = 'ZV0_wKZ_PpgWgVlnf'
-
-      const params = {
-        from_name: this.name,
-        phone: this.phone,
-        reply_to: this.email,
-        message: this.message,
-      }
-
-      try {
-        const response: EmailJSResponseStatus =
-          await emailjs.send(
-            serviceId,
-            templateId,
-            params,
-            userId
-          )
-        console.log(
-          'Email sent sucessfully.',
-          response
-        )
-        this.alert =
-          'Email sent sucessfully. Thank you!'
-        this.name = ''
-        this.phone = ''
-        this.email = ''
-        this.message = ''
-      } catch (error) {
-        console.error(
-          'Error sending email',
-          error
-        )
-        this.alert =
-          'Error sending email. Please try again.'
-      }
-    },
-  },
-})
-</script>
 
 <style scoped>
 .success {
@@ -133,9 +137,7 @@ export default defineComponent({
   padding: 0.5rem;
   border-radius: 5px;
 }
-</style>
 
-<style scoped>
 form {
   display: flex;
   align-items: left;

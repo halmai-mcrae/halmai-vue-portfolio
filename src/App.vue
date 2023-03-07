@@ -77,8 +77,15 @@ a {
 
 .copyright {
   font-size: 0.5rem;
-  text-align: right;
   margin-top: 1rem;
+  text-align: right;
+  color: #918f8c;
+}
+
+.copyright-home {
+  font-size: 0.5rem;
+  margin-top: 1rem;
+  text-align: right;
   color: #918f8c;
 }
 
@@ -151,10 +158,15 @@ nav a:first-of-type {
     display: block;
     border-top: 1px solid var(--color-border);
     padding-top: 2rem;
+    margin-top: 2rem;
   }
 
   .nav-hidden :hover {
     background-color: transparent;
+  }
+
+  .copyright-home {
+    display: none;
   }
 }
 

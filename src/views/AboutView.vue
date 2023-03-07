@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import NavHidden from '@/components/NavHidden.vue'
+</script>
+
 <template>
   <div class="about">
     <p>
@@ -32,13 +36,12 @@
       you'd like to chat, or have something in
       mind you think I'd be a good fit for, then
       please
-      <a
-        class="mail"
-        href="mailto:hello@halmaimcrae.co.nz"
+      <a class="mail" href="/contact"
         >get in touch with me.</a
       >
     </p>
   </div>
+  <NavHidden />
 </template>
 
 <style>
@@ -77,6 +80,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .about {
+    margin-top: 2rem;
   }
 }
 </style>
