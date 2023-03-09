@@ -12,11 +12,13 @@ defineProps<{
       I build things for the web.
     </h1>
     <br />
-    <h4>
-      Full Stack Developer, specialising in
-      websites, applications and everything in
-      between.
-    </h4>
+    <div>
+      <h4>
+        Full Stack Developer, specialising in
+        websites, applications and everything in
+        between.
+      </h4>
+    </div>
   </div>
 </template>
 

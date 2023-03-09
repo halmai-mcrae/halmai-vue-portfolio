@@ -94,7 +94,7 @@ import {
       ><a
         href="https://thepainterguy.co.nz/"
         target="_blank"
-        >The Painter Guy®</a
+        >The Painter Guy</a
       >
       <small></small>
     </template>
@@ -121,8 +121,8 @@ import {
     </template>
     <template #heading
       ><RouterLink to="/projects"
-        >More projects</RouterLink
-      ></template
+        >More projects
+      </RouterLink></template
     >
     Coming soon. In the meantime, check out my
     <a

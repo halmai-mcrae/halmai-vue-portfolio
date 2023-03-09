@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="about">
     <p>
-      The technologies I've been working with
+      Technologies I've been working with
       recently.
     </p>
     <br />
@@ -30,7 +30,6 @@ import { RouterLink } from 'vue-router'
         <li>Google Cloud</li>
       </ul>
     </div>
-
     <br />
     <p>
       I am always curious about new opportunies,
