@@ -6,8 +6,8 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="about">
     <p>
-      Here are the technologies I've been working
-      with recently.
+      The technologies I've been working with
+      recently.
     </p>
     <br />
     <div class="grid-container">
@@ -27,11 +27,12 @@ import { RouterLink } from 'vue-router'
         <li>.NET</li>
         <li>Redux</li>
         <li>Flutter</li>
-        <li>GCP</li>
+        <li>Google Cloud</li>
       </ul>
     </div>
+
+    <br />
     <p>
-      <br />
       I am always curious about new opportunies,
       either remote or here in Wellington. If
       you'd like to chat, or have something in

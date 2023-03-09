@@ -31,6 +31,10 @@ h4 {
   font-weight: 500;
 }
 
+.gold {
+  color: #b88f48;
+}
+
 .sub {
   color: #eed2a8;
   font-size: 1.8rem;
@@ -39,7 +43,7 @@ h4 {
 
 @media screen and (max-width: 1024px) {
   h2 {
-    left: 20%;
+    left: 10%;
   }
   h4 {
     text-align: center;
@@ -47,9 +51,6 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-  h2 {
-    left: 0%;
-  }
   h4 {
     text-align: center;
   }

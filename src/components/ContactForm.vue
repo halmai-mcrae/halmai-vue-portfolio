@@ -142,7 +142,6 @@ form {
   display: flex;
   align-items: left;
   flex-direction: column;
-  margin: 2rem;
 }
 
 label {

@@ -16,7 +16,7 @@ import {
       >
         <font-awesome-icon
           icon="fa-brands fa-github"
-          transform="grow-14 down-2"
+          transform="grow-5"
         />
       </a>
     </template>
@@ -30,7 +30,7 @@ import {
         target="_blank"
         ><font-awesome-icon
           icon="fa-brands fa-linkedin-in"
-          transform="grow-12 down-2"
+          transform="grow-5"
       /></a>
     </template>
     <template #heading
@@ -60,7 +60,7 @@ import {
       >
         <font-awesome-icon
           icon="fa-brands fa-medium"
-          transform="grow-10 down-2"
+          transform="grow-5"
         />
       </a>
     </template>
@@ -86,7 +86,7 @@ import {
       >
         <font-awesome-icon
           icon="fa-solid fa-envelope"
-          transform="grow-11 down-1"
+          transform="grow-5"
         />
       </a>
     </template>
@@ -114,7 +114,7 @@ import {
         ><font-awesome-icon
           icon="fa-solid fa-heart"
           fixed-width
-          transform="grow-10 down-1"
+          transform="grow-5"
         />
       </RouterLink>
       <RouterView />

@@ -43,7 +43,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 #app {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
   font-weight: normal;
 }
 
@@ -58,11 +58,6 @@ header {
   margin-bottom: 2rem;
   border-radius: 50%;
   box-shadow: 0 0 0 1px var(--color-border);
-}
-
-.gold {
-  color: #b88f48;
-  top: -0.5rem;
 }
 
 a {
